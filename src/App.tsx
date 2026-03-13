@@ -369,9 +369,9 @@ const Plans = () => {
 
 const DirectoryPreview = () => {
   const members = [
-    { name: "Ana Silva", biz: "Marketing Digital", img: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200" },
-    { name: "Carla Mendes", biz: "Moda & Estilo", img: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200" },
-    { name: "Juliana Costa", biz: "Gastronomia", img: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&q=80&w=200" },
+    { name: "Adriana (Drika)", biz: "CEO e Fundadora", img: "assets/drika.png" },
+    { name: "Amanda Amorim", biz: "Psicologia", img: "assets/amanda.png" },
+    { name: "Geanne Magalhães", biz: "Gestão Financeira", img: "assets/geanne.png" },
     { name: "Beatriz Oliveira", biz: "Arquitetura", img: "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=200" },
   ];
 
@@ -443,7 +443,7 @@ const Footer = () => {
               Fortalecendo o empreendedorismo feminino através de conexões reais e oportunidades de negócios. Junte-se à maior rede de mulheres empreendedoras.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-gold hover:text-black transition-all"><Instagram size={20} /></a>
+              <a href="https://www.instagram.com/elasenegociosbr?igsh=YWhuNWpjb24wbzll" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-gold hover:text-black transition-all"><Instagram size={20} /></a>
               <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-gold hover:text-black transition-all"><MessageCircle size={20} /></a>
             </div>
           </div>
@@ -462,7 +462,7 @@ const Footer = () => {
           <div>
             <h4 className="font-serif text-xl mb-8">Contato</h4>
             <ul className="space-y-4 text-sm text-white/40">
-              <li className="flex items-center gap-3"><MessageCircle size={16} className="text-gold" /> (73) 99999-9999</li>
+              <li className="flex items-center gap-3"><MessageCircle size={16} className="text-gold" /> (73) 99927-5052</li>
               <li className="flex items-center gap-3"><Globe size={16} className="text-gold" /> Itabuna - Ilhéus, BA</li>
               <li className="flex items-center gap-3"><Users size={16} className="text-gold" /> @elasenegociosbr</li>
             </ul>
@@ -494,7 +494,7 @@ export default function App() {
           <div className="relative">
             <div className="aspect-square rounded-3xl overflow-hidden border border-white/10">
               <img 
-                src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&q=80&w=1000" 
+                src="assets/historia.png" 
                 alt="Equipe Elas e Negócios" 
                 className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
                 referrerPolicy="no-referrer"
