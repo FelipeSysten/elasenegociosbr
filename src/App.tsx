@@ -47,9 +47,13 @@ const Navbar = () => {
   return (
     <nav className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-black/90 backdrop-blur-md py-4' : 'bg-transparent py-6'}`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
-        <div className="flex items-center gap-2">
-          <div className="w-10 h-10 gold-gradient rounded-full flex items-center justify-center font-serif text-black font-bold text-xl">E</div>
-          <span className="font-serif text-2xl tracking-tighter font-bold gold-text-gradient">ELAS <span className="text-xs block -mt-1 font-sans tracking-widest text-white/60">E NEGÓCIOS BR</span></span>
+         <div className="flex items-center">
+          <img 
+            src="assets/elasenegociosbr.png" 
+            alt="Elas e Negócios BR" 
+            className="h-12 w-auto"
+            referrerPolicy="no-referrer"
+          />
         </div>
 
         {/* Desktop Menu */}
@@ -148,7 +152,7 @@ const Hero = () => {
             className="aspect-[4/5] rounded-[2rem] overflow-hidden border border-white/10 shadow-2xl relative preserve-3d"
           >
             <img 
-              src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&q=80&w=1000" 
+              src="assets/home.png" 
               alt="Networking Feminino" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
