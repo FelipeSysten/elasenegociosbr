@@ -63,9 +63,14 @@ const Navbar = () => {
               {item.name}
             </a>
           ))}
-          <button className="gold-gradient text-black px-6 py-2 rounded-full text-sm font-bold uppercase tracking-widest hover:scale-105 transition-transform">
+          <a 
+            href="https://www.asaas.com/c/eswkp5rvlx6q3vmk?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnaUTfnutIDiW3DsTJ8vHYRzjpl4LI8PdrYPnMVOAP3krhZmqEaF-EVwA3JhY_aem_cKlM8kR-ZJucmNOOKw87dg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="gold-gradient text-black px-6 py-2 rounded-full text-sm font-bold uppercase tracking-widest hover:scale-105 transition-transform"
+          >
             Entrar
-          </button>
+          </a>
         </div>
 
         {/* Mobile Toggle */}
@@ -88,9 +93,14 @@ const Navbar = () => {
                 {item.name}
               </a>
             ))}
-            <button className="gold-gradient text-black py-4 rounded-xl font-bold uppercase tracking-widest">
+            <a 
+              href="https://www.asaas.com/c/eswkp5rvlx6q3vmk?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnaUTfnutIDiW3DsTJ8vHYRzjpl4LI8PdrYPnMVOAP3krhZmqEaF-EVwA3JhY_aem_cKlM8kR-ZJucmNOOKw87dg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="gold-gradient text-black py-4 rounded-xl font-bold uppercase tracking-widest text-center"
+            >
               Entrar na Área da Membro
-            </button>
+            </a>
           </motion.div>
         )}
       </AnimatePresence>
@@ -128,12 +138,22 @@ const Hero = () => {
             Networking estratégico, visibilidade e oportunidades exclusivas para empreendedoras que buscam faturamento com conexão e propósito.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <button className="gold-gradient text-black px-8 py-4 rounded-full font-bold uppercase tracking-widest flex items-center justify-center gap-2 hover:shadow-[0_0_30px_rgba(197,160,89,0.3)] transition-all">
+            <a 
+              href="https://www.asaas.com/c/eswkp5rvlx6q3vmk?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnaUTfnutIDiW3DsTJ8vHYRzjpl4LI8PdrYPnMVOAP3krhZmqEaF-EVwA3JhY_aem_cKlM8kR-ZJucmNOOKw87dg"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="gold-gradient text-black px-8 py-4 rounded-full font-bold uppercase tracking-widest flex items-center justify-center gap-2 hover:shadow-[0_0_30px_rgba(197,160,89,0.3)] transition-all"
+            >
               Quero fazer parte <ArrowRight size={18} />
-            </button>
-            <button className="border border-white/20 hover:bg-white/5 px-8 py-4 rounded-full font-bold uppercase tracking-widest transition-all">
+            </a>
+            <a 
+              href="https://www.instagram.com/elasenegociosbr/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border border-white/20 hover:bg-white/5 px-8 py-4 rounded-full font-bold uppercase tracking-widest transition-all text-center"
+            >
               Conheça a comunidade
-            </button>
+            </a>
           </div>
         </motion.div>
 
@@ -265,8 +285,8 @@ const Benefits = () => {
               }}
               className="glass-card p-8 group transition-all hover:bg-white/10 preserve-3d"
             >
-              <div className="w-14 h-14 rounded-2xl gold-gradient flex items-center justify-center text-black mb-8 group-hover:scale-110 transition-transform shadow-lg">
-                <benefit.icon size={28} />
+              <div className="w-12 h-12 rounded-full bg-gold/10 flex items-center justify-center text-gold mb-6 group-hover:scale-110 transition-transform">
+                <benefit.icon size={24} />
               </div>
               <h3 className="text-2xl font-serif mb-4 transform translate-z-20">{benefit.title}</h3>
               <p className="text-white/50 leading-relaxed text-sm transform translate-z-10">{benefit.desc}</p>
@@ -281,39 +301,20 @@ const Benefits = () => {
 const Plans = () => {
   const plans = [
     {
-      name: "Essencial",
-      price: "29",
+      name: "Valor",
+      price: "89,90",
+      installments: "até 2x de R$ 44,95 sem juros",
       features: [
         "Acesso ao grupo exclusivo",
         "Networking online",
         "Divulgação no diretório",
-        "Suporte da comunidade"
-      ],
-      recommended: false
-    },
-    {
-      name: "Premium",
-      price: "79",
-      features: [
-        "Todos os benefícios do Essencial",
+        "Suporte da comunidade",
         "Participação em eventos presenciais",
         "Destaque no diretório",
         "Divulgação nas redes sociais",
         "Rodadas de negócios"
       ],
       recommended: true
-    },
-    {
-      name: "Empresarial",
-      price: "199",
-      features: [
-        "Destaque máximo no portal",
-        "Publicidade da empresa",
-        "Participação em eventos VIP",
-        "Palestras e mentorias",
-        "Consultoria estratégica"
-      ],
-      recommended: false
     }
   ];
 
@@ -325,11 +326,11 @@ const Plans = () => {
           <p className="text-white/40">Investimento estratégico para quem busca conexões reais e resultados sólidos.</p>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-8">
+        <div className="flex justify-center">
           {plans.map((plan) => (
             <div 
               key={plan.name}
-              className={`relative p-10 rounded-[2.5rem] border transition-all duration-500 ${plan.recommended ? 'bg-gold text-black border-transparent scale-105 shadow-[0_0_50px_rgba(197,160,89,0.2)]' : 'bg-white/5 border-white/10 hover:border-gold/50'}`}
+              className={`relative p-10 rounded-[2.5rem] border transition-all duration-500 w-full max-w-md bg-gold text-black border-transparent shadow-[0_0_50px_rgba(197,160,89,0.2)]`}
             >
               {plan.recommended && (
                 <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-black text-gold text-[10px] font-bold uppercase tracking-widest px-4 py-1 rounded-full">
@@ -337,22 +338,27 @@ const Plans = () => {
                 </div>
               )}
               <h3 className="text-2xl font-serif mb-2 uppercase tracking-widest">{plan.name}</h3>
-              <div className="flex items-baseline gap-1 mb-8">
+              <div className="flex items-baseline gap-1 mb-2">
                 <span className="text-sm font-bold">R$</span>
                 <span className="text-6xl font-serif font-bold">{plan.price}</span>
-                <span className={`text-sm ${plan.recommended ? 'text-black/60' : 'text-white/40'}`}>/mês</span>
               </div>
+              <p className="text-black/60 text-sm mb-8">{plan.installments}</p>
               <ul className="space-y-4 mb-10">
                 {plan.features.map((feature) => (
                   <li key={feature} className="flex items-start gap-3 text-sm">
-                    <CheckCircle2 size={18} className={plan.recommended ? 'text-black' : 'text-gold'} />
-                    <span className={plan.recommended ? 'text-black/80' : 'text-white/70'}>{feature}</span>
+                    <CheckCircle2 size={18} className="text-black" />
+                    <span className="text-black/80">{feature}</span>
                   </li>
                 ))}
               </ul>
-              <button className={`w-full py-4 rounded-full font-bold uppercase tracking-widest transition-all ${plan.recommended ? 'bg-black text-white hover:bg-zinc-800' : 'gold-gradient text-black hover:scale-105'}`}>
+              <a 
+                href="https://www.asaas.com/c/eswkp5rvlx6q3vmk?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnaUTfnutIDiW3DsTJ8vHYRzjpl4LI8PdrYPnMVOAP3krhZmqEaF-EVwA3JhY_aem_cKlM8kR-ZJucmNOOKw87dg"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="w-full py-4 rounded-full font-bold uppercase tracking-widest transition-all bg-black text-white hover:bg-zinc-800 text-center block"
+              >
                 Assinar Agora
-              </button>
+              </a>
             </div>
           ))}
         </div>
@@ -401,9 +407,14 @@ const DirectoryPreview = () => {
                 <p className="text-white/80">Conexão direta com redes sociais e WhatsApp.</p>
               </div>
             </div>
-            <button className="flex items-center gap-2 text-gold font-bold uppercase tracking-widest group">
+            <a 
+              href="https://www.instagram.com/elasenegociosbr/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 text-gold font-bold uppercase tracking-widest group"
+            >
               Explorar diretório completo <ChevronRight className="group-hover:translate-x-2 transition-transform" />
-            </button>
+            </a>
           </div>
 
           <div className="grid grid-cols-2 gap-4">
@@ -443,8 +454,8 @@ const Footer = () => {
               Fortalecendo o empreendedorismo feminino através de conexões reais e oportunidades de negócios. Junte-se à maior rede de mulheres empreendedoras.
             </p>
             <div className="flex gap-4">
-              <a href="https://www.instagram.com/elasenegociosbr?igsh=YWhuNWpjb24wbzll" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-gold hover:text-black transition-all"><Instagram size={20} /></a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-gold hover:text-black transition-all"><MessageCircle size={20} /></a>
+              <a href="https://www.instagram.com/elasenegociosbr/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-gold hover:text-black transition-all"><Instagram size={20} /></a>
+              <a href="https://api.whatsapp.com/send/?phone=%2B5573999275052&text&type=phone_number&app_absent=0&utm_source=ig" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/5 flex items-center justify-center hover:bg-gold hover:text-black transition-all"><MessageCircle size={20} /></a>
             </div>
           </div>
 
@@ -481,6 +492,24 @@ const Footer = () => {
   );
 };
 
+// Floating WhatsApp Button
+const FloatingWhatsAppButton = () => {
+  return (
+    <motion.a
+      href="https://api.whatsapp.com/send/?phone=%2B5573999275052&text&type=phone_number&app_absent=0&utm_source=ig"
+      target="_blank"
+      rel="noopener noreferrer"
+      initial={{ scale: 0 }}
+      animate={{ scale: 1 }}
+      whileHover={{ scale: 1.1 }}
+      whileTap={{ scale: 0.95 }}
+      className="fixed bottom-8 right-8 z-40 w-16 h-16 rounded-full bg-green-500 flex items-center justify-center shadow-lg hover:shadow-xl transition-shadow"
+    >
+      <MessageCircle size={28} className="text-white" />
+    </motion.a>
+  );
+};
+
 export default function App() {
   return (
     <div className="selection:bg-gold selection:text-black">
@@ -500,7 +529,7 @@ export default function App() {
                 referrerPolicy="no-referrer"
               />
             </div>
-            <div className="absolute -bottom-10 -left-10 glass-card p-8 max-w-xs">
+            <div className="absolute -bottom-10 -right-10 glass-card p-8 max-w-xs">
               <h4 className="font-serif text-2xl mb-2">Nossa Missão</h4>
               <p className="text-sm text-white/60 leading-relaxed">
                 Fortalecer o empreendedorismo feminino através de conexões reais e oportunidades de negócios.
@@ -525,9 +554,14 @@ export default function App() {
                 <p className="text-sm text-white/40">Colaboração, crescimento coletivo e ética nos negócios.</p>
               </div>
             </div>
-            <button className="gold-gradient text-black px-8 py-4 rounded-full font-bold uppercase tracking-widest hover:scale-105 transition-transform">
+            <a 
+              href="https://api.whatsapp.com/send/?phone=%2B5573999275052&text&type=phone_number&app_absent=0&utm_source=ig"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="gold-gradient text-black px-8 py-4 rounded-full font-bold uppercase tracking-widest hover:scale-105 transition-transform inline-block"
+            >
               Conheça as Fundadoras
-            </button>
+            </a>
           </div>
         </div>
       </section>
@@ -545,9 +579,14 @@ export default function App() {
           <p className="text-xl text-white/60 mb-12 max-w-2xl mx-auto">
             Junte-se a milhares de mulheres que já estão transformando networking em faturamento real.
           </p>
-          <button className="gold-gradient text-black px-12 py-6 rounded-full text-xl font-bold uppercase tracking-[0.2em] hover:shadow-[0_0_50px_rgba(197,160,89,0.4)] transition-all">
+          <a 
+            href="https://www.asaas.com/c/eswkp5rvlx6q3vmk?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnaUTfnutIDiW3DsTJ8vHYRzjpl4LI8PdrYPnMVOAP3krhZmqEaF-EVwA3JhY_aem_cKlM8kR-ZJucmNOOKw87dg"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="gold-gradient text-black px-12 py-6 rounded-full text-xl font-bold uppercase tracking-[0.2em] hover:shadow-[0_0_50px_rgba(197,160,89,0.4)] transition-all inline-block"
+          >
             Entrar para a Comunidade
-          </button>
+          </a>
         </div>
       </section>
 
@@ -584,6 +623,7 @@ export default function App() {
       </section>
 
       <Footer />
+      <FloatingWhatsAppButton />
     </div>
   );
 }
