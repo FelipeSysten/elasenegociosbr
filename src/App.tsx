@@ -64,7 +64,7 @@ const Navbar = () => {
             </a>
           ))}
           <a 
-            href="https://www.asaas.com/c/eswkp5rvlx6q3vmk?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnaUTfnutIDiW3DsTJ8vHYRzjpl4LI8PdrYPnMVOAP3krhZmqEaF-EVwA3JhY_aem_cKlM8kR-ZJucmNOOKw87dg"
+            href="https://www.asaas.com/c/8myzwig6mfe9smer"
             target="_blank"
             rel="noopener noreferrer"
             className="gold-gradient text-black px-6 py-2 rounded-full text-sm font-bold uppercase tracking-widest hover:scale-105 transition-transform"
@@ -94,7 +94,7 @@ const Navbar = () => {
               </a>
             ))}
             <a 
-              href="https://www.asaas.com/c/eswkp5rvlx6q3vmk?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnaUTfnutIDiW3DsTJ8vHYRzjpl4LI8PdrYPnMVOAP3krhZmqEaF-EVwA3JhY_aem_cKlM8kR-ZJucmNOOKw87dg"
+              href="https://www.asaas.com/c/8myzwig6mfe9smer"
               target="_blank"
               rel="noopener noreferrer"
               className="gold-gradient text-black py-4 rounded-xl font-bold uppercase tracking-widest text-center"
@@ -139,7 +139,7 @@ const Hero = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a 
-              href="https://www.asaas.com/c/eswkp5rvlx6q3vmk?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnaUTfnutIDiW3DsTJ8vHYRzjpl4LI8PdrYPnMVOAP3krhZmqEaF-EVwA3JhY_aem_cKlM8kR-ZJucmNOOKw87dg"
+              href="https://www.asaas.com/c/8myzwig6mfe9smer"
               target="_blank"
               rel="noopener noreferrer"
               className="gold-gradient text-black px-8 py-4 rounded-full font-bold uppercase tracking-widest flex items-center justify-center gap-2 hover:shadow-[0_0_30px_rgba(197,160,89,0.3)] transition-all"
@@ -301,18 +301,14 @@ const Benefits = () => {
 const Plans = () => {
   const plans = [
     {
-      name: "Valor",
-      price: "89,90",
-      installments: "até 2x de R$ 44,95 sem juros",
+      name: "BENEFÍCIOS EXCLUSIVOS",
+      price: "149,90",
+      installments: "mensais",
       features: [
-        "Acesso ao grupo exclusivo",
-        "Networking online",
-        "Divulgação no diretório",
-        "Suporte da comunidade",
-        "Participação em eventos presenciais",
-        "Destaque no diretório",
-        "Divulgação nas redes sociais",
-        "Rodadas de negócios"
+        "VISIBILIDADE CONSTANTE",
+        "NETWORKING DE ALTO NIVEL",
+        "EVENTOS ESTRATÉGICOS",
+        "OPORTUNIDADES ESPECIAIS"
       ],
       recommended: true
     }
@@ -352,7 +348,7 @@ const Plans = () => {
                 ))}
               </ul>
               <a 
-                href="https://www.asaas.com/c/eswkp5rvlx6q3vmk?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnaUTfnutIDiW3DsTJ8vHYRzjpl4LI8PdrYPnMVOAP3krhZmqEaF-EVwA3JhY_aem_cKlM8kR-ZJucmNOOKw87dg"
+                href="https://www.asaas.com/c/8myzwig6mfe9smer"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full py-4 rounded-full font-bold uppercase tracking-widest transition-all bg-black text-white hover:bg-zinc-800 text-center block"
@@ -580,7 +576,7 @@ export default function App() {
             Junte-se a milhares de mulheres que já estão transformando networking em faturamento real.
           </p>
           <a 
-            href="https://www.asaas.com/c/eswkp5rvlx6q3vmk?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnaUTfnutIDiW3DsTJ8vHYRzjpl4LI8PdrYPnMVOAP3krhZmqEaF-EVwA3JhY_aem_cKlM8kR-ZJucmNOOKw87dg"
+            href="https://www.asaas.com/c/8myzwig6mfe9smer"
             target="_blank"
             rel="noopener noreferrer"
             className="gold-gradient text-black px-12 py-6 rounded-full text-xl font-bold uppercase tracking-[0.2em] hover:shadow-[0_0_50px_rgba(197,160,89,0.4)] transition-all inline-block"
